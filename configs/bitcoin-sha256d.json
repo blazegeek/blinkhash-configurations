@@ -1,0 +1,134 @@
+{
+    "enabled": false,
+    "featured": true,
+    "fees": 1,
+    "identifier": "https://github.com/blinkhash/blinkhash-server",
+    "logo": "",
+    "addresses": {
+        "address": "<bitcoin-pool-address>",
+        "tAddress": "",
+        "zAddress": ""
+    },
+    "coin": {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "algorithm": "sha256",
+        "peerMagic": "f9beb4d9",
+        "peerMagicTestnet": "0b110907",
+        "hasGetInfo": false,
+        "hashrateType": "hashes",
+        "requireShielding": false,
+        "sapling": false,
+        "segwit": true,
+        "txfee": 0.0004,
+        "mainnet": {
+            "bech32": "bc",
+            "bip32": {
+                "public": "0488B21E"
+            },
+            "pubKeyHash": "00",
+            "scriptHash": "05"
+        },
+        "parameters": {
+            "N": "",
+            "K": "",
+            "personalization": ""
+        },
+        "testnet": {
+            "bech32": "tb",
+            "bip32": {
+                "public": "043587CF"
+            },
+            "pubKeyHash": "6F",
+            "scriptHash": "C4"
+        }
+    },
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 8332,
+            "user": "<rpc-username>",
+            "password": "<rpc-password>"
+        }
+    ],
+    "rewards": {
+        "rewardType": "",
+        "founders": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        },
+        "secureNodes": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        },
+        "superNodes": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        },
+        "treasury": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        }
+    },
+    "paymentProcessing": {
+        "enabled": true,
+        "checkInterval": 20,
+        "operationInterval": 0,
+        "paymentInterval": 7200,
+        "shieldInterval": 0,
+        "minimumPayment": 0.05,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 8332,
+            "user": "<rpc-username>",
+            "password": "<rpc-password>"
+        }
+    },
+    "ports": {
+        "3010": {
+            "enabled": true,
+            "soloMining": false,
+            "diff": 65536,
+            "varDiff": {
+                "minDiff": 2048,
+                "maxDiff": 268435456,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+        "3011": {
+            "enabled": true,
+            "soloMining": true,
+            "diff": 65536,
+            "varDiff": {
+                "minDiff": 2048,
+                "maxDiff": 268435456,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        }
+    },
+    "p2p": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 8333,
+        "disableTransactions": true
+    },
+    "rewardRecipients": {
+        "<bitcoin-fee-address>": 1
+    }
+}
