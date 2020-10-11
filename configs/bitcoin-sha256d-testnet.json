@@ -5,12 +5,12 @@
     "identifier": "https://github.com/blinkhash/blinkhash-server",
     "logo": "",
     "addresses": {
-        "address": "<bitcoin-pool-address>",
+        "address": "<bitcoin-testnet-pool-address>",
         "tAddress": "",
         "zAddress": ""
     },
     "coin": {
-        "name": "Bitcoin",
+        "name": "Bitcoin (Testnet)",
         "symbol": "BTC",
         "algorithm": "sha256",
         "peerMagic": "f9beb4d9",
@@ -46,7 +46,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 8332,
+            "port": 18332,
             "user": "<rpc-username>",
             "password": "<rpc-password>"
         }
@@ -91,7 +91,7 @@
         "minimumPayment": 0.05,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 8332,
+            "port": 18332,
             "user": "<rpc-username>",
             "password": "<rpc-password>"
         }
@@ -102,7 +102,7 @@
     "p2p": {
         "enabled": true,
         "host": "127.0.0.1",
-        "port": 8333,
+        "port": 18333,
         "disableTransactions": true
     },
     "rewardRecipients": {
