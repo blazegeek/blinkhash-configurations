@@ -5,16 +5,16 @@
     "identifier": "https://github.com/blinkhash/blinkhash-server",
     "logo": "",
     "addresses": {
-        "address": "<bitcoin-testnet-pool-address>",
+        "address": "<bitcoin-pool-address>",
         "tAddress": "",
         "zAddress": ""
     },
     "coin": {
-        "name": "Bitcoin (Testnet)",
-        "symbol": "BTC",
+        "name": "Bitcoin Cash",
+        "symbol": "BCH",
         "algorithm": "sha256",
-        "peerMagic": "f9beb4d9",
-        "peerMagicTestnet": "0b110907",
+        "peerMagic": "e4e1f3e8",
+        "peerMagicTestnet": "f4e5f3f4",
         "hasGetInfo": false,
         "hashrateType": "hashes",
         "requireShielding": false,
@@ -22,8 +22,8 @@
         "segwit": true,
         "txfee": 0.0004,
         "mainnet": {
-            "network": "btc",
-            "bech32": "bc",
+            "network": "bch",
+            "bech32": "",
             "bip32": {
                 "public": "0488B21E"
             },
@@ -36,8 +36,8 @@
             "personalization": ""
         },
         "testnet": {
-            "network": "btc",
-            "bech32": "tb",
+            "network": "bch",
+            "bech32": "",
             "bip32": {
                 "public": "043587CF"
             },

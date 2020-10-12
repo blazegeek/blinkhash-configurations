@@ -90,7 +90,7 @@
         "operationInterval": 0,
         "paymentInterval": 7200,
         "shieldInterval": 0,
-        "minimumPayment": 0.05,
+        "minimumPayment": 0.005,
         "daemon": {
             "host": "127.0.0.1",
             "port": 8332,
