@@ -5,12 +5,12 @@
     "identifier": "https://github.com/blinkhash/blinkhash-server",
     "logo": "",
     "addresses": {
-        "address": "<bitcoin-pool-address>",
+        "address": "<bitcoin-testnet-pool-address>",
         "tAddress": "",
         "zAddress": ""
     },
     "coin": {
-        "name": "Bitcoin Cash",
+        "name": "Bitcoin Cash (Testnet)",
         "symbol": "BCH",
         "algorithm": "sha256",
         "peerMagic": "e4e1f3e8",
