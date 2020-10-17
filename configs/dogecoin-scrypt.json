@@ -1,0 +1,113 @@
+{
+    "enabled": false,
+    "featured": true,
+    "fees": 1,
+    "identifier": "https://github.com/blinkhash/blinkhash-server",
+    "logo": "",
+    "addresses": {
+        "address": "<dogecoin-pool-address>",
+        "tAddress": "",
+        "zAddress": ""
+    },
+    "coin": {
+        "name": "Dogecoin",
+        "symbol": "DOGE",
+        "algorithm": "scrypt",
+        "peerMagic": "c0c0c0c0",
+        "peerMagicTestnet": "fcc1b7dc",
+        "hasGetInfo": true,
+        "hashrateType": "hashes",
+        "requireShielding": false,
+        "sapling": false,
+        "segwit": false,
+        "txfee": 0.0004,
+        "mainnet": {
+            "network": "doge",
+            "bech32": "",
+            "bip32": {
+                "public": "043587CF"
+            },
+            "pubKeyHash": "1E",
+            "scriptHash": "16"
+        },
+        "parameters": {
+            "N": "",
+            "K": "",
+            "personalization": ""
+        },
+        "testnet": {
+            "network": "doge",
+            "bech32": "",
+            "bip32": {
+                "public": "043587CF"
+            },
+            "pubKeyHash": "71",
+            "scriptHash": "C4"
+        }
+    },
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 22556,
+            "user": "<rpc-username>",
+            "password": "<rpc-password>"
+        }
+    ],
+    "rewards": {
+        "rewardType": "",
+        "founders": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        },
+        "secureNodes": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        },
+        "superNodes": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        },
+        "treasury": {
+            "interval": 0,
+            "reward": 0,
+            "startHeight": 0,
+            "endHeight": 0,
+            "recipients": []
+        }
+    },
+    "paymentProcessing": {
+        "enabled": true,
+        "checkInterval": 20,
+        "operationInterval": 0,
+        "paymentInterval": 7200,
+        "shieldInterval": 0,
+        "minimumPayment": 0.005,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 22556,
+            "user": "<rpc-username>",
+            "password": "<rpc-password>"
+        }
+    },
+    "ports": {
+        "<port-configuration>"
+    },
+    "p2p": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 22555,
+        "disableTransactions": true
+    },
+    "rewardRecipients": {
+        "<dogecoin-fee-address>": 1
+    }
+}
