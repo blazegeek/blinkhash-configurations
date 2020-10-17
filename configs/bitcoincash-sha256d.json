@@ -19,7 +19,7 @@
         "hashrateType": "hashes",
         "requireShielding": false,
         "sapling": false,
-        "segwit": true,
+        "segwit": false,
         "txfee": 0.0004,
         "mainnet": {
             "network": "bch",
